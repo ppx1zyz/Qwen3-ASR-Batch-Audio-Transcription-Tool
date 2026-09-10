@@ -8,43 +8,19 @@ A GUI-based batch audio transcription tool powered by [Qwen3-ASR](https://github
 
 ## Features / 功能特性
 
-- 使用 NVIDIA GPU 加速推理  
-  NVIDIA GPU acceleration
-
-- 支持 Qwen3-ASR-1.7B 和 Qwen3-ASR-0.6B  
-  Support for Qwen3-ASR-1.7B and Qwen3-ASR-0.6B
-
-- 批量处理文件夹中的音频文件  
-  Batch process audio files in a selected folder
-
-- 输出与音频文件同名的 `.txt` 文件  
-  Generate `.txt` files with the same names as the input audio files
-
-- 自定义输入文件夹和输出文件夹  
-  Select input and output directories
-
-- 已存在同名 TXT 文件时逐个提示覆盖或跳过  
-  Prompt individually to overwrite or skip existing TXT files
-
-- 流式显示当前识别结果  
-  Display transcription results in real time
-
-- 显示当前文件字数和 Chunk 进度  
-  Show character count and Chunk progress
-
-- 显示当前文件和整个任务的预计剩余时间  
-  Display estimated remaining time for the current file and the entire task
-
-- 显示 GPU 显存使用、总占用和剩余显存  
-  Display GPU memory usage, total usage, and available memory
-
-- 自动记忆上次使用的路径和参数  
-  Remember previously used paths and parameters
-
-- 使用后台线程执行识别，避免界面卡死  
+- 使用 NVIDIA GPU 加速推理NVIDIA GPU acceleration
+- 支持 Qwen3-ASR-1.7B 和 Qwen3-ASR-0.6BSupport for Qwen3-ASR-1.7B and Qwen3-ASR-0.6B
+- 批量处理文件夹中的音频文件Batch process audio files in a selected folder
+- 输出与音频文件同名的 `.txt` 文件Generate `.txt` files with the same names as the input audio files
+- 自定义输入文件夹和输出文件夹Select input and output directories
+- 已存在同名 TXT 文件时逐个提示覆盖或跳过Prompt individually to overwrite or skip existing TXT files
+- 流式显示当前识别结果Display transcription results in real time
+- 显示当前文件字数和 Chunk 进度Show character count and Chunk progress
+- 显示当前文件和整个任务的预计剩余时间Display estimated remaining time for the current file and the entire task
+- 显示 GPU 显存使用、总占用和剩余显存Display GPU memory usage, total usage, and available memory
+- 自动记忆上次使用的路径和参数Remember previously used paths and parameters
+- 使用后台线程执行识别，避免界面卡死
   Run transcription in a background thread to keep the GUI responsive
-
-
 
 ## Project Structure / 项目结构
 
@@ -64,8 +40,6 @@ qwen3-asr/
 D:/models/Qwen3-ASR-1.7B
 /home/user/models/Qwen3-ASR-1.7B
 ```
-
-
 
 ## Requirements / 环境要求
 
@@ -166,8 +140,6 @@ sudo apt install python3-tk
 Windows 通常会随 Python 一起安装 Tkinter。如果系统中没有 Tkinter，请重新安装 Python，并确保勾选 Tcl/Tk 组件。
 
 On Windows, Tkinter is usually included with Python. If it is unavailable, reinstall Python with the Tcl/Tk component enabled.
-
-
 
 ### Download the models / 下载模型
 
