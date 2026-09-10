@@ -37,8 +37,9 @@ from asr_server import qsr_hurmaness
 # ============================================================
 
 CONFIG_FILE = (
-    Path.home()
-    / ".qsr_transcriber_config.json"
+    Path(__file__).parent
+    / 
+    ".qsr_transcriber_config.json"
 )
 
 DEFAULT_EXTENSIONS = (
