@@ -29,7 +29,7 @@ from tkinter import (
 
 import torch
 
-from asr_transfer.asr_server import qsr_hurmaness
+from asr_server import qsr_hurmaness
 
 
 # ============================================================
